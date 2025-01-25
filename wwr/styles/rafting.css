@@ -1,0 +1,149 @@
+:root {
+    --primary-color: #1E67CD;
+    --secondary-color: #e68e24;
+    --accent1-color: #85b5f8;
+    --accent2-color: #ebb97c;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Puts logo on the left and nav on the right */
+    align-items: center; /* Vertically centers logo and nav */
+    max-width: 1200px; /* Limits the width of the header */
+    margin: 0 auto; /* Centers the header horizontally */
+    padding-left: 40px; /* Adds space on the left */
+    padding-right: 40px; /* Adds space on the right */
+}
+
+header .logo {
+    width: 100px; /* Adjust logo width as needed */
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Adds space between navigation links */
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 80%;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero article {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero article p {
+    flex: 1;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+/* History Section */
+.history {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.history h2 {
+    color: var(--secondary-color);
+}
+
+/* Adventure Section */
+.adventure {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.adventure h2 {
+    color: var(--secondary-color);
+}
+
+.adventure-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-images img {
+    width: 18%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+footer .social-links {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer .social-links img {
+    width: 30px;
+    margin: 0 5px;
+}
