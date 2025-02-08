@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting</title>
+    <meta name="description" content="Contact Us page for the White Water Rafting website. Reach out to us for inquiries, reservations, or suggestions.">
+    <meta name="author" content="Lackson Munthali">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="images/logo.jpeg" alt="Rafting Site Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Company Information -->
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 123 Rafting St, Adventure City, AC 12345</p>
+            <p>Phone: +1 (234) 567-8901</p>
+            <p>Email: info@whitewaterrafting.com</p>
+        </section>
+
+        <!-- Google Map -->
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.9537353153166!3d-37.81627974202167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d2d2b2a4f4c4!2sWhite%20Water%20Rafting!5e0!3m2!1sen!2sus!4v1633031100000!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <!-- Employee Profiles -->
+        <section class="employees">
+            <h2>Our Team</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/lackson1.jpeg" alt="John Doe">
+                    <figcaption>John Doe, Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/lackson2.jpeg" alt="Jane Smith">
+                    <figcaption>Jane Smith, Safety Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/lackson1.jpeg" alt="Mike Johnson">
+                    <figcaption>Mike Johnson, Operations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Purpose of Message:</label>
+                <div>
+                    <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
+                    <label for="inquiry">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 🌴 White Water Rafting 🌴 Lackson Munthali</p>
+        <div class="social-links">
+            <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://x.com"><img src="images/x.png" alt="X"></a>
+            <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram"></a>
+        </div>
+        <a href="" target="_blank">View Wireframe</a>
+    </footer>
+</body>
+</html>
